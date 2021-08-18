@@ -1,0 +1,5 @@
+  374  kill -9 11515
+  375  ps
+  376  history
+  377  history | tail -5
+  378  history | tail -5 > historico.txt

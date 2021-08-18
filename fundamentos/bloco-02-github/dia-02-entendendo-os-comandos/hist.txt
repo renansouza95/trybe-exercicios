@@ -1,0 +1,683 @@
+    1  /
+    2  ls
+    3  /:
+    4  ls -a
+    5  cd documents
+    6  cd Documents
+    7  cd ~
+    8  cd /
+    9  ls
+   10  cd ~
+   11  ls
+   12  cd ~
+   13  cd /
+   14  ls
+   15  ls -a
+   16  cd users
+   17  cd usr
+   18  ls
+   19  cd local
+   20  ls
+   21  cd ~
+   22  ls
+   23  clear
+   24  ls
+   25  cd Music
+   26  ls
+   27  mkdir trybe
+   28  ls
+   29  cd trybe
+   30  cd .
+   31  cd ..
+   32  ls -a
+   33  pwd
+   34  cd home
+   35  cd ..
+   36  cd home
+   37  cd ..
+   38  cd /music
+   39  cd Music
+   40  ls
+   41  cd pigrenex
+   42  ls
+   43  cd Music
+   44  cd ..
+   45  cd..
+   46  cd ..
+   47  ls
+   48  ls -a
+   49  cd home
+   50  ls
+   51  cd pigrenex
+   52  ls
+   53  cd Music
+   54  ls
+   55  mkdir trance
+   56  ld
+   57  ls
+   58  cd trybe
+   59  ls
+   60  cd..
+   61  cd ..
+   62  ls
+   63  cp trybe trybe2
+   64  ls
+   65  clear
+   66  ls
+   67  cd trybe
+   68  ls
+   69  cp arquivo.txt arquivo2.txt
+   70  cp arquivo1.txt arquivo2.txt
+   71  ls
+   72  cat arquivo1.txt
+   73  cat arquivo2.txt
+   74  clear
+   75  ls
+   76  mv arquivo2.txt /home/pigrenex/Music
+   77  ls
+   78  cd ..
+   79  ls
+   80  clear
+   81  rm arquivo2.txt
+   82  ls
+   83  rmdir trance
+   84  ls
+   85  rmdir trybe
+   86  clear
+   87  cd trybe
+   88  less arquivo1.txt
+   89  head -2 arquivo1.txt
+   90  clear
+   91  tail -2 arquivo1.txt
+   92  clear
+   93  less arquivo.txt
+   94  less arquivo1.txt
+   95  grep bash
+   96  ls
+   97  cd ..
+   98  ls
+   99  cd pigrenex
+  100  ls
+  101  cd ..
+  102  ls
+  103  cd ..
+  104  ;s
+  105  ls
+  106  ls
+  107  cd Music
+  108  cd trybe
+  109  grep bash arquivo1.txt
+  110  grep -iv 'bash' arquivo1.txt
+  111  grep -in 'bash' arquivo1.txt
+  112  clear
+  113  wc arquivo1.txt
+  114  wc -w arquivo1.txt
+  115  wc -l arquivo1.txt
+  116  wc -c arquivo1.txt
+  117  clear
+  118  cd ..
+  119  ls *
+  120  ls ?rybe
+  121  man ls
+  122  whatis cp
+  123  man cp
+  124  apropos copy
+  125  clear
+  126  ls
+  127  cd trybe
+  128  cat arquivo1.txt
+  129  ls
+  130  cd Documents
+  131  ls
+  132  cd trybe
+  133  mkdir unix_tests
+  134  ls
+  135  cd unix_tests
+  136  touch trybe.txt
+  137  ls
+  138  cp trybe.txt trybe_backup.txt
+  139  ls
+  140  mv trybe.txt trybe_backup2.txt
+  141  ls
+  142  pwd
+  143  mkdir backup
+  144  mv trybe_backup.txt backup
+  145  ls
+  146  mkdir backup2
+  147  cd backup
+  148  cd ..
+  149  mv backup/trybe_backup.txt backup2
+  150  ls
+  151  rm backup
+  152  rmdir backup
+  153  mv backup2 backup
+  154  ls
+  155  cd backup
+  156  ls
+  157  cd ..
+  158  pwd
+  159  ls
+  160  ls -a
+  161  ls -l
+  162  ls -la
+  163  ls
+  164  cd backup
+  165  ls
+  166  cd ..
+  167  rmdir backup
+  168  rm -r backup
+  169  ls
+  170  clea
+  171  clear
+  172  ls
+  173  head -5 skills.txt
+  174  tail -4 skills.txt
+  175  cd ..
+  176  mv skills.txt /trybe
+  177  cd unix_tests
+  178  rm trybe_backup2.txt
+  179  ls
+  180  rm ?.txt
+  181  rm *.txt
+  182  ls
+  183  ls
+  184  cd Documents
+  185  ls
+  186  cd trybe
+  187  .ls
+  188  ls
+  189  cd unix_tests
+  190  ls
+  191  cd ..
+  192  rmdir unix_tests
+  193  ls
+  194  clear
+  195  mkdir unix_tests
+  196  cd unix_tests
+  197  touch trybe.txt
+  198  cp trybe.txt trybe_backup.txt
+  199  mv trybe.txt asdf.txt
+  200  ls
+  201  mkdir backup
+  202  mv trybe_backup.txt backup
+  203  ls
+  204  mkdir backup2
+  205  mv trybe_backup.txt backup2
+  206  ls
+  207  cd backup
+  208  mv trybe_backup.txt backup2
+  209  ls
+  210  mv backup2 trybe_backup.txt
+  211  ls
+  212  cd ..
+  213  mv /backup/trybe_backup.txt backup2
+  214  ls
+  215  cp backup
+  216  cd backup
+  217  mv trybe_backup.txt /backup2
+  218  cd ..
+  219  mv /backup/trybe_backup.txt /backup2
+  220  mv trybe_backup.txt /backup2
+  221  ls
+  222  cd backup
+  223  ls
+  224  mv trybe_backup.txt /unix_tests/backup2
+  225  mv trybe_backup.txt ~/Documents/trybe/unix_tests/backup2
+  226  ls
+  227  cd ..
+  228  rmdir backup
+  229  mv backup2 backup
+  230  pwd
+  231  ls -a
+  232  rm -rf backup
+  233  ls
+  234  clear
+  235  ls
+  236  head -5 skills.txt
+  237  tail -4 skills.txt
+  238  cat skills.txt
+  239  rm *.txt
+  240  ls
+  241  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  242  sudo snap install curl # verion 7.78.0
+  243  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  244  ls
+  245  mv countries.txt ~/Documents/trybe/unix_tests
+  246  ls
+  247  cd Documents
+  248  ls
+  249  cd trybe
+  250  cd unix_tests
+  251  ls
+  252  cat countries.txt
+  253  less countries.txt
+  254  grep Zambia countries.txt
+  255  less countries.txt
+  256  cat countries.txt
+  257  grep Brazil countries.txt
+  258  grep brazil countries.txt
+  259  ls
+  260  man grep
+  261  clear
+  262  cat countries.txt
+  263  less countries.txt
+  264  grep Zambia countries.txt
+  265  less countries.txt
+  266  grep Brazil countries.txt
+  267  grep brazil countries.txt
+  268  man grep
+  269  grep -i brazil countries.txt
+  270  ls
+  271  mv 'Unititled Document 1' phrases.txt
+  272  clear
+  273  ls
+  274  cat phrases.txt
+  275  grep -v fox
+  276  grep -v fox phrases.txt
+  277  grep -i -v fox phrases.txt
+  278  grep -iv fox phrases.txt
+  279  wc phrases.txt
+  280  man wc
+  281  wc -w phrases.txt
+  282  wc -l phrases.txt
+  283  ls -a
+  284  ls *.txt
+  285  ls *.tbt *.txt
+  286  ls *.t?t
+  287  man ls
+  288  ls
+  289  mkdir backup1 backup2
+  290  ls
+  291  mv phrases.txt backup1
+  292  ls
+  293  cd backup1
+  294  ls
+  295  mv phrases.txt /backup2
+  296  mv phrases.txt ~/Documents/trybe/unix_tests/backup2
+  297  man grep
+  298  cd ..
+  299  LS
+  300  ls
+  301  ps
+  302  sleep 5
+  303  sleep 10 & 
+  304  sleep 10 &
+  305  ps
+  306  sleep 100
+  307  bg
+  308  ps
+  309  jobs
+  310  sleep 200 &
+  311  sleep 100 &
+  312  jobs
+  313  ps
+  314  fg
+  315  clear
+  316  jobs
+  317  ps
+  318  kill %2
+  319  kill %3
+  320  jobs
+  321  man kill
+  322  man history
+  323  sudo apt-get install cmatrix
+  324  cmatrix
+  325  ls -a
+  326  sudo apt-get install fortune
+  327  fortune > fortune.txt
+  328  ls
+  329  cat > fortune.txt
+  330  cat fortune.txt 
+  331  wc fortune.txt 
+  332  wc -w fortune.txt 
+  333  fortune
+  334  sudo apt-get install fortune
+  335  sudo apt-get install sl
+  336  sl
+  337  ls -f
+  338  sl -f
+  339  sl -F
+  340  sudo apt-get install cowsay
+  341  cowsay
+  342  cowsay < fortune.txt
+  343  factor 42
+  344  fortune rev
+  345  fortune | rev
+  346  telnet towel.blinkenlights.nl
+  347  man sort
+  348  cat 
+  349  cat > cores.txt
+  350  ls
+  351  cat cores.txt 
+  352  cat >> cores.txt
+  353  cat cores.txt 
+  354  cat > frutas.txt
+  355  ls
+  356  cat cores.txt frutas.txt > tudo.txt
+  357  ls
+  358  cat tudo.txt
+  359  sort < cores.txt 
+  360  sort < tudo.txt 
+  361  sort < cores.txt > coresOrdenads.txt
+  362  ls
+  363  cat coresOrdenads.txt 
+  364  who
+  365  who 
+  366  who | sort
+  367  who | wc -l
+  368  who | wc -c
+  369  ls -a
+  370  ls -l
+  371  clear
+  372  ls -l
+  373  chmod u-rw frutas.txt
+  374  ls -l
+  375  cat frutas.txt 
+  376  cat > frutas.txt 
+  377  chmod u+rw frutas.txt 
+  378  ls-l
+  379  ls -l
+  380  cat frutas.txt 
+  381  cat >> frutas.txt 
+  382  cat frutas.txt 
+  383  ps
+  384  jobs
+  385  sleep 1000
+  386  bg
+  387  ps
+  388  kill -9 7859
+  389  ps
+  390  clear
+  391  cd Documents
+  392  cd trybe/unix_tests
+  393  cat > skills2.txt
+  394  cat >> skills2.txt
+  395  grep -n skills2.txt 
+  396  sort skills2.txt
+  397  wc -l skills2.txt 
+  398  cat | head -3 skills2.txt > top_skills
+  399  cat | head -3 skills2.txt > top_skills.txt
+  400  rm -rf top_skills.txt
+  401  ls
+  402  rm -rf top_skills 
+  403  ls
+  404  cat skills2.txt > top_skills.txt
+  405  ls
+  406  clear
+  407  rm -rf top_skills.txt skills2.txt
+  408  clear
+  409  cat > skills2.txt
+  410  sort < skills2.txt 
+  411  sort skills2.txt > top_skills.txt
+  412  cat skills2.txt 
+  413  cat top_skills.txt 
+  414  wc -l skills2.txt 
+  415  sort | head -3 skills2.txt > topSkills.txt
+  416  ls
+  417  cat topSkills.txt 
+  418  rm -rf topSkills.txt 
+  419  cat > phrases2.txt
+  420  rm -rf phrases2.txt 
+  421  cat > phrases2.txt
+  422  wc -l | grep "br" phrases2.txt 
+  423  wc -l | grep -i  "br" phrases2.txt 
+  424  wc -l | grep "br"<  phrases2.txt 
+  425  wc -l phrases2.txt 
+  426  wc -l | grep -v "br" < phrases2.txt 
+  427  grep "br" phrases2.txt | wc -l
+  428  grep -v "br" phrases2.txt | wc -l
+  429  cat >> phrases2.txt 
+  430  cat countries.txt phrases2.txt > bunch_of_things.txt
+  431  sort > bunch_of_things.txt 
+  432  cat bunch_of_things.txt 
+  433  ls bunch_of_things.txt 
+  434  rm bunch_of_things.txt 
+  435  cat countries.txt phrases2.txt > bunch_of_things.txt
+  436  cat bunch_of_things.txt 
+  437  sort bunch_of_things.txt 
+  438  cat bunch_of_things.txt 
+  439  sort > bunch_of_things.txt 
+  440  cat bunch_of_things.txt 
+  441  cat countries.txt phrases2.txt > bunch_of_things.txt
+  442  sort < bunch_of_things.txt > bunch_of_things.txt 
+  443  cat bunch_of_things.txt 
+  444  ls
+  445  rm bunch_of_things.txt 
+  446  cat countries.txt phrases2.txt > bunch_of_things.txt
+  447  cat bunch_of_things.txt 
+  448  sort bunch_of_things.txt 
+  449  sort -f bunch_of_things.txt > bunch_of_things.txt 
+  450  cat bunch_of_things.txt 
+  451  rm bunch_of_things.txt 
+  452  cat countries.txt phrases2.txt > bunch_of_things.txt
+  453  sort -f bunch_of_things.txt 
+  454  cat phrases2.txt
+  455  cat bunch_of_things.txt 
+  456  sort -f bunch_of_things.txt | cat > bunch_of_things.txt 
+  457  cat bunch_of_things.txt 
+  458  rm bunch_of_things.txt 
+  459  cat countries.txt phrases2.txt > bunch_of_things.txt
+  460  ls
+  461  rm -rf bunch_of_things.txt 
+  462  cat countries.txt phrases2.txt | sort -f > bunch_of_things.txt
+  463  ls
+  464  cat bunch_of_things.txt 
+  465  man sort
+  466  man grep
+  467  man wc
+  468  man sort
+  469  man grep
+  470  man sort
+  471  clear
+  472  ls -l
+  473  chmod g+w bunch_of_things.txt 
+  474  ls -l
+  475  chmod g+rw bunch_of_things.txt 
+  476  ls -;
+  477  ls -l
+  478  clear
+  479  ls -l
+  480  chmod a-rw bunch_of_things.txt 
+  481  ls -l
+  482  chmod a+rw bunch_of_things.txt 
+  483  ls -l
+  484  chmod a-w bunch_of_things.txt 
+  485  ls -l
+  486  chmod 644 bunch_of_things.txt 
+  487  ls -l
+  488  chmod u+w bunch_of_things.txt 
+  489  ls -l
+  490  clear
+  491  ps
+  492  sleep 30 &
+  493  ps
+  494  kill 11434
+  495  ps
+  496  sleep 30 
+  497  bg
+  498  sleep 300 &
+  499  ps
+  500  kill 11463
+  501  ps
+  502  sleep 30
+  503  bg
+  504  sleep 200
+  505  bg
+  506  sleep 100
+  507  bg
+  508  jobs
+  509  fg %2
+  510  kill all
+  511  ps
+  512  kill 11515 11518
+  513  ps
+  514  kill 11515
+  515  ps
+  516  fg 11515
+  517  kill -9
+  518  kill -9 11515
+  519  ps
+  520  history
+  521  history | tail -5
+  522  history | tail -5 > historico.txt
+  523  ls
+  524  cat historico.txt 
+  525  find . -type f
+  526  cd /Documents/trybe/unix_tests
+  527  ls
+  528  cd Documents/trybe
+  529  ls
+  530  cat /sys/module/snd_hda_intel/parameters/power_save
+  531  echo "0" | sudo tee /sys/module/snd_hda_intel/parameters/power_save
+  532  cd /etc/modprobe.d/alsa-base.conf
+  533  cd ..
+  534  ls
+  535  cd ..
+  536  ls -a
+  537  cd etc
+  538  ls -a
+  539  cd modprobe.d
+  540  ls -a
+  541  cd alsa-bas.conf
+  542  cat alsa-bas.conf
+  543  cd alsa-base.conf
+  544  cat alsa-base.conf
+  545  options snd-hda-intel model=dell-headset-multi
+  546  cat -a alsa-base.conf
+  547  cat -A alsa-base.conf
+  548  man cat
+  549  cd ~/
+  550  pulseaudio -k
+  551  alsamixer
+  552  killall pulseaudio; pulseaudio -k; rm -r ~/.config/pulse/* ; rm -r ~/.pulse*
+  553  sudo apt-get install git-all
+  554  git config --global user.name "Renan Souza"
+  555  git config --global user.email s.renan@outlook.com
+  556  ls -a
+  557  git config --global core.editor "code --wait"
+  558  code .gitconfig
+  559  git --version
+  560  git config --list
+  561  ssh-keygen -t rsa -b 4096 -C "s.renan@outlook.com"
+  562  eval "$(ssh-agent -s)"
+  563  ssh-add ~/.ssh/id_rsa
+  564  sudo apt-get install xclip
+  565  xclip -sel clip < ~/.ssh/id_rsa.pub
+  566  git status
+  567  cd TRYBE
+  568  cat
+  569  ls
+  570  cd trybe-exercicios
+  571  ls
+  572  cd Fundamentos
+  573  ls
+  574  cd Bloco 02 GitHub
+  575  cd Bloco 02 'GitHub'
+  576  cd 'Bloco 02 GitHub'
+  577  ls
+  578  cd 'Dia 01'
+  579  cat habilidades.txt
+  580  push habilidades.txt
+  581  echo habilidades.txt
+  582  ls
+  583  ls -a
+  584  cat > habilidades.txt
+  585  ls -l
+  586  cd ..
+  587  cd .
+  588  cd ..
+  589  git init
+  590  touch README.md
+  591  git add .
+  592  git commit -m "Initial commit"
+  593  git remote add origin git@github.com:renansouza95/trybe-exercicios.git
+  594  git remote -v
+  595  git push origin master
+  596  ls -a
+  597  cd TRYBE
+  598  ls
+  599  mkdir 'Soft Skills'
+  600  ls
+  601  cd Documents
+  602  mkdir clone
+  603  cd clone
+  604  git clone https://github.com/renansouza95/trybe-exercicios
+  605  cd ..
+  606  cd /TRYBE/trybe-exercicios
+  607  cd ~/TRYBE
+  608  ls
+  609  cd trybe-exercicios
+  610  git status
+  611  git log
+  612  git status
+  613  git version
+  614  ls -a
+  615  cd ~/TRYBE/trybe-exercicios
+  616  ls
+  617  cd Fundamentos
+  618  ls
+  619  cd 'Bloco 01 Unix & Bash'/
+  620  ls
+  621  cd ..
+  622  cd "Bloco 02 GitHub"/"Dia 01"
+  623  ls
+  624  cp habilidades.txt 
+  625  copy habilidades.txt 
+  626  man cp
+  627  cp habilidades.txt ~/TRYBE/trybe-exercicios/Fundamentos/'Bloco 02 GitHub/'Dia 02'/
+  628  man cp
+  629  cp habilidades.txt ~/TRYBE/trybe-exercicios/Fundamentos/'Bloco 02 GitHub/
+
+
+  630  cp habilidades.txt ~/TRYBE/trybe-exercicios/Fundamentos
+  631  cd ..
+  632  cd..
+  633  cd ..
+  634  ls
+  635  mv habilidades.txt /Bloco 02 GitHub/Dia 02
+  636  mv habilidades.txt /'Bloco 02 GitHub'/'Dia 02'
+  637  mv habilidades.txt /"Bloco 02 GitHub"/"Dia 02"
+  638  mv habilidades.txt "Bloco 02 GitHub"/"Dia 02"
+  639  cd "Bloco 02 GitHub"/"Dia 02"
+  640  ls
+  641  git status
+  642  mv habilidades.txt ~/TRYBE/trybe-exercicios
+  643  ls
+  644  cd ..
+  645  ls
+  646  git status
+  647  git add habilidades.txt 
+  648  git commit -m "copia do arquivo habilidades.txt para a pasta raiz"
+  649  git status
+  650  git checkout trybe-skills-changes
+  651  man git
+  652  git branch trybe-skills-changes
+  653  ls
+  654  ls -a
+  655  git status
+  656  git checkout trybe-skills-changes
+  657  ls
+  658  git -v
+  659  git status
+  660  ls
+  661  git push
+  662  git push -u origin trybe-skills-changes
+  663  git status
+  664  cat >> habilidades.txt 
+  665  cat habilidades.txt 
+  666  git add habilidades.txt 
+  667  git commit -m "adiciona habilidades na lista"
+  668  git push
+  669  git checkout master
+  670  git branch
+  671  cat habilidades.txt 
+  672  git checkout -b trybe-skills-updates
+  673  cat >> habilidades.txt 
+  674  git add habilidades.txt 
+  675  git commit -m "adiciona outra habilidade no arquivo"
+  676  git push -u origin trybe-skills-updates
+  677  man history
+  678  git checkout main
+  679  git checkout master
+  680  cd Fundamentos/"Bloco 02 GitHub"/"Dia 02"
+  681  history > hist.txt

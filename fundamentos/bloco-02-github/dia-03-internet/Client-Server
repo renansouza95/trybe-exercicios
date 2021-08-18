@@ -1,0 +1,26 @@
+[Post-it][Sala 08][Dev não nego, Codo quando puder]
+
+Daniel Santana de Souza
+Marcello Tavares Barbosa
+Marcus Vinicius Santana Farias
+Italo Moraes Moura Gurgel
+João Vitor Lopes Nunes Dantas
+Renan Arruda de Souza
+Miguel Costa Coitinho
+Leandro de Oliveira Leão
+Ricardo Magalhães Carvalho
+
+1. O navegador vai para o servidor de DNS e encontra o endereço verdadeiro de onde o site está hospedado (você encontra o endereço da loja).
+2. O navegador manda uma mensagem de requisição HTTP para o servidor, pedindo que envie uma cópia do site ao cliente (você vai até a loja e pede suas mercadorias). Esta mensagem e todos os outros dados enviados entre o cliente e o servidor são enviados pela sua conexão à internet usando TCP/IP.
+3. Se o servidor aprovar a requisição do cliente, o servidor enviará ao cliente uma mensagem "200 OK", que significa "Claro que você pode ver esse site! Aqui está" e então começa a enviar os arquivos do site para o navegador como uma série de pequenos pedaços chamados pacotes de dados (a loja dá a você as suas mercadorias e você as traz para sua casa).
+4. O navegador monta os pequenos pedaços em um site completo e o mostra a você (as mercadorias chegam à sua porta — novas coisas brilhantes e incríveis!).
+
+Quando eu digito www.google.com no navegador e aperto enter, o que acontece até o site aparecer para nós?
+1. O navegador vai para o servidor de DNS e busca o endereço onde o site está hospedado.
+2 - O servidor DNS traduz o endereço e devolve o endereço IP do servidor para o cliente.
+3 - Cliente ao receber resposta do DNS, realiza solicitação para se conectar ao servidor para porta 80.
+4 - Servidor retorna solicitação para cliente, autorizando a conexão.
+5 - O navegador envia uma requisição HTTP para o servidor, solicitando uma cópia do site ao cliente . Os dados enviados entre o cliente e o servidor são enviados pela sua conexão à internet usando TCP/IP. 
+6 - Se o servidor aprovar a requisição do cliente, o servidor enviará ao cliente uma mensagem "200 OK", que significa "Claro que você pode ver esse site! Aqui está" e então começa a enviar os arquivos do site para o navegador como uma série de pequenos pedaços chamados pacotes de dados 
+7 - O servidor envia código HTML para exibição da página.
+8 - Navegador traduz o código HTML e exibe a página.

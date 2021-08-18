@@ -1,0 +1,9 @@
+Mozilla Firefox
+Google Chrome
+Opera
+Safari
+Yahoo
+Amazon
+Foxtror
+Github
+Trybe
