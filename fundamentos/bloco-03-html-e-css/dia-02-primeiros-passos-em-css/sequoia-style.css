@@ -1,0 +1,12 @@
+h2 {
+    color: green;
+}
+body {
+    background-color: rgb(255, 400, 200);
+}
+#exctinct-species {
+    background-color: red;
+}
+.list-style {
+    background-color: blue;
+}

@@ -1,0 +1,29 @@
+body {
+    font-size: 16px;
+    text-align: center;
+}
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;/
+}
+ul {
+    background-color: blue;
+    text-align: left;
+}
+#bg-colour {
+    background-color: blue;
+}
+p{
+    font-weight: 600;
+    font-size: 48px;
+}
+#item1 {
+    background-color: yellow;
+}
+#item2 {
+    background-color: red;
+}
+#item3 {
+    background-color: brown;
+}
