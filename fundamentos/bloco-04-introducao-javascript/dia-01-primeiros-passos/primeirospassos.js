@@ -75,3 +75,19 @@ else if (weekDay === "sábado" || weekDay === "domingo") {
 else {
   console.log("Tá em Nárnia, patrão? Esse dia não existe!");
 }
+
+let processoSeletivo = "reprovada";
+
+switch (processoSeletivo) {
+  case "aprovada":
+    console.log("aprovada");
+    break;
+  case "lista":
+    console.log("lista");
+    break;
+  case "reprovada":
+     console.log("reprovada");
+     break;
+  default:
+    console.log("não se aplica");
+}
