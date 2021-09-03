@@ -57,7 +57,62 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      let corpo= document.querySelector('body');
+      corpo.innerText = "Exercício 5.2 - JavaScript DOM";
+
+      let principal = document.createElement('main');
+      principal.className = 'main-content';
+      // principal.classList.add('main-content');
+      corpo.appendChild(principal);
+
+      let centerSection = document.createElement('section');
+      centerSection.className = 'center-content';
+      // centerSection.classList.add('center-content');
+      principal.appendChild(centerSection);
+
+      let paragraph = document.createElement('p');
+      paragraph.innerText = "Olá, alunos da Trybe! Tudo bem com vocês?";
+      centerSection.appendChild(paragraph);
+
+      let leftSection = document.createElement('section');
+      leftSection.className = 'left-content';
+      // leftSection.classList.add('left-content');
+      principal.appendChild(leftSection);
+
+      let rightSection = document.createElement('section');
+      rightSection.className = 'right-content';
+      // rightSection.classList.add('right-content');
+      principal.appendChild(rightSection);
+
+      let photo = document.createElement('img');
+      photo.src = "https://picsum.photos/200";
+      photo.className = 'small-image';
+      // photo.classList.add('small-image');
+      leftSection.appendChild(photo);
+
+      let newList = document.createElement('ul');
+      rightSection.appendChild(newList);
+      let myArray = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"];
+      for(let num in myArray) {
+        let listagem = document.createElement('li');
+        listagem.innerText = myArray[num];
+        newList.appendChild(listagem);
+      }
+      
+      for (let i = 1; i <= 3; i += 1) {
+        let tripleTags = document.createElement('h3');
+        tripleTags.innerText = "Amigo, estou aqui";
+        principal.appendChild(tripleTags);
+      }
+
+      corpo.className = 'title';
+      // corpo.classList.add('title');
+
+      for (let c = 1; c <= 3; c += 1) {
+        tripleTags[c].className = 'description';
+      }
+
+      
     </script>
   </body>
 </html>
