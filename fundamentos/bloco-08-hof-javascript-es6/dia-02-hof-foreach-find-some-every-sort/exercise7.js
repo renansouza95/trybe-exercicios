@@ -65,11 +65,15 @@ const books = [
 
 // Adicione o código do exercício aqui:
 // Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário.
+// Código do Brunão.
+// const expectedResult = false;
 
-const expectedResult = false;
+const authorUnique = () => {
+  const result = [];
+  books.forEach(books => result.push(books.author.birthYear));
+  return result.some((booksArr, index) => result.indexOf(booksArr) !== index);
+};
 
-function authorUnique() {
-  // escreva seu código aqui
-}
+console.log(authorUnique());
 
 assert.strictEqual(authorUnique(), expectedResult);
