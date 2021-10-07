@@ -89,5 +89,8 @@ const expectedResult = [
 ];
 
 function oldBooksOrdered() {
-  // escreva seu código aqui
+  return (books.filter((book) => (2021 - book.releaseYear > 60))).sort((yearA, yearB) => yearA.releaseYear - yearB.releaseYear);
+  // return filteredBooks.sort((yearA, yearB) => yearB - yearA);
 }
+
+console.log(oldBooksOrdered());
