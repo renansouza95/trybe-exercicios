@@ -71,5 +71,8 @@ const expectedResult = [
 ];
 
 function oldBooks() {
-  // escreva seu código aqui
+  const booksByYears = books.filter((book) => (2021 - book.releaseYear > 60));
+  return booksByYears.map((nome) => nome.name);
 }
+
+console.log(oldBooks());
