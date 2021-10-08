@@ -1,4 +1,5 @@
 // 1 - Dada uma matriz, transforme em um array.
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/concat
 
 const arrays = [
   ['1', '2', '3'],
@@ -6,6 +7,8 @@ const arrays = [
   [4, 5, 6],
 ];
 
-function flatten() {
-  // escreva seu código aqui
-}
+ function flatten() {
+  return arrays.reduce((acc, currentValue) => acc.concat((currentValue), []));
+ }
+
+console.log(flatten());
