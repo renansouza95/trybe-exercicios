@@ -63,9 +63,21 @@ const books = [
 
 // Adicione o código do exercício aqui:
 // 2 - Crie uma string com os nomes de todas as pessoas autoras.
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
 const expectedResult = "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
 
 function reduceNames() {
-  // escreva seu código aqui
+  const reducer = books.reduce((acc, book, index, array) => {
+    if (index === 0) {
+      return `${book.author.name},`;
+    } else if (index === array.length - 1) {
+      return `${acc} ${book.author.name}.`;
+    } else {
+      return `${acc} ${book.author.name},`;
+    }
+  }, '');
+  return reducer;
 }
+
+console.log(reduceNames());
