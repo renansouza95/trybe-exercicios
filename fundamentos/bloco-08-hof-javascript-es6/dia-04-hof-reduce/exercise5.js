@@ -7,5 +7,14 @@ const names = [
 ];
 
 function containsA() {
-  // escreva seu código aqui
+  return names.reduce((acc, currentValue) => {
+    return acc + currentValue.split('').reduce((accumulator, current) => {
+      if (current === 'a' || current === 'A') {
+        return accumulator + 1;
+      }
+      return accumulator;
+    }, 0);
+  }, 0);
 }
+
+console.log(containsA());
