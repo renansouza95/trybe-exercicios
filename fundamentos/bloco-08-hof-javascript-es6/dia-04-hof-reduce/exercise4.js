@@ -76,8 +76,15 @@ const expectedResult = {
   releaseYear: 1991,
 };
 
+// Split também funciona, porém retorna apenas o nome do livro e não o objeto inteiro.
+
 function longestNamedBook() {
-  books.reduce((acc, book) => {
-    
-  })
+  return books.reduce((acc, currentBook) => {
+    if (currentBook.name.length > acc.name.length) {
+      return currentBook;
+    }
+    return acc;
+  });
 }
+
+console.log(longestNamedBook());
