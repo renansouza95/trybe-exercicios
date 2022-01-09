@@ -36,6 +36,7 @@
     <script>
       // Importar o Redux
       const Redux = require('redux');
+      import { createStore } from 'redux';
 
       // Recuperando os elementos html
       const prevBtn = document.getElementById('previous');
@@ -104,7 +105,7 @@
         return cor;
       }
 
-      // Adicionando escutador de evento
+      // Adicionando escutador de evento / Dispatch
       prevBtn.addEventListener('click', () => {
         store.dispatch(actionPrevColor())
       });
